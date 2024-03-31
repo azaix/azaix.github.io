@@ -1,0 +1,65 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Azaix"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Azaix"
+  description: "A parent company with multiple brands, our focus is to better human life using artificial intelligence & technology in all our products."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "Thanisandra, Bangalore , Karnataka-560045"
+
+  contact:
+    - "azaix.9@gmail.com"
+
+  copyright: "© 2024 Azaix All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "About Us"
+      url: "/about"
+      weight: 2
+
+  # buttons:
+  #   - name: "Book a call"
+  #     url: "/#"
+  #     weight: 5
+  #     pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+      
+    - name: "About Us"
+      url: "/about"
+      weight: 2
+
+taxonomies:
+  series: "series"
+  tags: "tags"
